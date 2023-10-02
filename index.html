@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('/portfolio/img/1172560.jpg');
+            background-position: center center;
+
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .header{
+            /* border: 2px solid blue; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: auto;
+            background-color: transparent;
+        }
+
+        .name {
+            /* border: 2px solid red; */
+            color: rgb(242, 223, 115);
+            margin-top: 15px;
+            font-size: 205%;
+            
+
+        }
+        .navbar li {
+            /* border: 2px solid blue; */
+            display: inline-block;
+            
+            
+            
+
+        }
+        .navbar{
+            text-align: center;
+        }
+        .navbar li a:hover{
+            color: aliceblue;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        .navbar li a {
+            color: rgb(242, 223, 115);
+            font-size: 150%;
+            margin: 0.5rem;
+            text-decoration: none;
+        }
+
+        #contact{
+            color: rgb(242, 223, 115);
+            background-color: transparent;
+            flex-wrap: wrap;
+            font-size: 120%;
+            margin: 0.4rem;
+        }
+        #contact:hover{
+            color: aliceblue;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        #contact option{
+            background-color: rgb(71, 73, 71);
+        }
+        option{
+            color: brown;
+            background-color: transparent;
+        }
+        </style>
+
+       
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="name">
+                Aman Verma
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+    
+                    <select name="contact" id="contact">Contact Us
+                        <option value="contact" ><a href="index.html">Contact Us</a></option>
+                        <option value="email"><a href="#">Email Us</a></option>
+                        <option value="Call"><a href="#">Call Us</a></option>
+                    </select>
+    
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Skills</a></li>
+                </ul>
+        </div>
+        
+        </div>
+        <div class="information">
+            Hi
+        </div>
+    </div>
+
+    
+
+
+</body>
+
+</html>
