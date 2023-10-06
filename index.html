@@ -6,107 +6,214 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            background-color: rgb(60, 59, 59);
-            
+        /* body{
+background-image: linear-gradient(rgb(214, 169, 184),rgb(115, 201, 193),rgb(106, 95, 210));
+        } */
+
+        body {
+            background-color: rgb(59, 57, 57);
+
         }
-        
-        
-        .header{
-            /* border: 2px solid blue; */
+
+        /* .bg{
+            
+
+            background-image: linear-gradient()("/portfolio/img/IMG20230125140008.jpg");
+
+                background-size: cover;
+                 background-repeat: no-repeat;
+                
+
+        } */
+
+        .header {
+            position: sticky;
+            top: 2%;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            /* border: 2px solid blue; */
+            justify-content: space-around;
             align-items: flex-start;
-            height: auto;
             background-color: transparent;
-            border: 2px solid blue;
+            
         }
 
         .name {
             /* border: 2px solid red; */
-            color: rgb(242, 223, 115);
-            margin-top: 15px;
-            font-size: 205%;
-            
-
+            color: white;
+            margin-top: 1rem;
+            font-size: 1.8rem;
         }
+
         .navbar li {
-            /* border: 2px solid blue; */
+            flex-wrap: wrap;
             display: inline-block;
-            
-            
-            
-
         }
-        .navbar{
+
+        .navbar {
             text-align: center;
         }
-        .navbar li a:hover{
-            color: aliceblue;
+
+        .navbar li a:hover {
+            color: black;
+            background-color: rgb(227, 88, 60);
             transition: 0.5s;
             cursor: pointer;
         }
+
         .navbar li a {
-            color: rgb(242, 223, 115);
-            font-size: 150%;
-            margin: 0.5rem;
+            color: white;
+            font-size: 1.4rem;
+            margin: 0.3rem;
+            padding: 0.5rem 0.5rem;
             text-decoration: none;
         }
 
-        #contact{
-            color: rgb(242, 223, 115);
-            background-color: transparent;
-            flex-wrap: wrap;
-            font-size: 120%;
-            margin: 0.4rem;
-        }
-        #contact:hover{
-            color: aliceblue;
-            transition: 0.5s;
-            cursor: pointer;
-        }
-        #contact option{
-            background-color: rgb(71, 73, 71);
-        }
-        option{
-            color: brown;
-            background-color: transparent;
-        }
-        
-        </style>
 
-       
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            width: 80%;
+            height: 100vh;
+            
+
+
+        }
+
+        .text {
+            /* border: 2px solid black; */
+            flex-wrap: wrap;
+            align-self: center;
+            align-items: flex-end;
+            color: antiquewhite;
+            font-size: 2rem;
+
+            /* padding: 1rem;
+            margin: 1rem; */
+
+
+        }
+
+        @media (max-width:1000px) {
+
+            .container {
+                justify-content: center;
+                width: auto;
+            }
+
+            .navbar {
+                width: 90%;
+            }
+
+            .header {
+                width: auto;
+                top: 0%;
+            }
+
+        }
+
+        .text2 {
+            /* border: 2px solid yellow; */
+            color: #b5e070;
+        }
+
+        .text3 {
+            font-size: 1.1rem;
+        }
+
+        .image {
+            align-self: center;
+            justify-content: center;
+            background-position: center;
+            margin: 1rem;
+            padding: 1rem;
+
+        }
+        .image2{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            margin-top: 10%;
+            /* border: 2px solid red; */
+        }
+        .about {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(92, 121, 135);
+            /* border: 2px solid red; */
+        }
+        .about_head{
+            margin-top: 2%;
+           color: white;
+           font-size: 150%;
+        
+        }
+        .about_content{
+            margin: 1rem;
+        }
+    </style>
+
+
 
 </head>
 
 <body>
-    
-    <div class="container">
-        <div class="header">
-            <div class="name">
-                Aman Verma
-            </div>
-            <div class="navbar">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-    
-                    <select name="contact" id="contact">Contact Us
-                        <option value="contact" ><a href="index.html">Contact Us</a></option>
-                        <option value="email"><a href="#">Email Us</a></option>
-                        <option value="Call"><a href="#">Call Us</a></option>
-                    </select>
-    
-                    <li><a href="#">Project</a></li>
-                    <li><a href="#">Skills</a></li>
-                </ul>
+
+    <div class="header">
+        <div class="name">
+            A.V.
         </div>
+        <div id="Home" class="navbar">
+            <ul>
+                <li><a href="#container">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div id="container" class="container">
+        <div class="text">
+            Hi, <br>I'm Aman Verma
+            <br>
+            <span class="text2">
+                Web Developer
+            </span>
+            <br>
+            <span class="text3">
+                I'm currently learning Web Development. <br>
+                <span class="text4">Traniee in Conatus.Competitive Programmer</span>
+            </span>
+        </div>
+        <div class="image">
+            <img src="/portfolio/img/image2.jpg" width="200vw" height="280vh">
+        </div>
+    </div>
+    <div id="about" class="about">
+        <div class="image2">
+            <img src="/portfolio/img/IMG_5420.JPG" width="20%">
+        </div>
+        <div class="about_head">
+            ABOUT
+        </div>
+       <br>
+       <div class="about_content">
+        Hello, I'm Aman Verma, and I'm thrilled to welcome you to my portfolio. I am from varanasi. I always been passionate about learning new things.
+        <br>
+        <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  I am proud to have been a Developer of team Conatus. Additionally I work hard to achieve my goal and do my best towards my work</p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It's a reflection of the multi-faceted person I am, and I bring this perspective into everything I create. Looking ahead, 
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm excited about learning new things Thank you for visiting my portfolio.</p>
+
        </div>
-       
     </div>
 
-    
 
 
 </body>
