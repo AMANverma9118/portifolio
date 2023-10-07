@@ -11,7 +11,7 @@
     height: 100vh;
 
 
-    background-image: url('/new_portfolio_background_by_larundel_d3n15qk-fullview.jpg');
+    background-image: url('/img/new_portfolio_background_by_larundel_d3n15qk-fullview.jpg');
     background-size: cover;
     justify-content: center;
     font-family: Arial, sans-serif;
@@ -222,7 +222,7 @@
     justify-content: center;
     align-items: center;
 
-    background-image: url('/t1.webp');
+    background-image: url('/img/t1.webp');
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
@@ -266,7 +266,7 @@
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
-    background-image: url('/projectImage.webp');
+    background-image: url('/img/projectImage.webp');
     background-size: cover;
     justify-content: center;
     box-shadow: 1rem 1rem 5rem 2rem lightblue;
@@ -311,7 +311,7 @@
     box-shadow: 1rem 1rem 5rem 2rem lightblue;
     flex-direction: column;
     align-items: center;
-    background-image: url('/vt5saV.webp');
+    background-image: url('/img/vt5saV.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -425,7 +425,7 @@
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    background-image: url('/ontime_payroll.jpg');
+    background-image: url('/img/ontime_payroll.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
