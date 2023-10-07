@@ -10,8 +10,8 @@
     width: auto;
     height: 100vh;
 
-    /* background-image: linear-gradient(rgb(51, 49, 49),rgb(42, 57, 71),rgb(82, 118, 82)); */
-    background-image: url('/portfolio/img/new_portfolio_background_by_larundel_d3n15qk-fullview.jpg');
+
+    background-image: url('/new_portfolio_background_by_larundel_d3n15qk-fullview.jpg');
     background-size: cover;
     justify-content: center;
     font-family: Arial, sans-serif;
@@ -29,16 +29,17 @@
     width: 100%;
 
 
-    /* border-radius: 2rem; */
+
     justify-content: space-around;
     background-color: rgb(45, 43, 43);
     z-index: 2;
-    /* background-image: linear-gradient(rgb(51, 49, 49),rgb(42, 57, 71),rgb(82, 118, 82)); */
+
 
 }
 
 .name2 {
-    color: rgb(60, 139, 163);;
+    color: rgb(60, 139, 163);
+    
 
 }
 
@@ -58,10 +59,9 @@
 }
 
 .navbar li a:hover {
-    /* text-decoration: underline; */
-    /* text-decoration-color: ; */
+   
     border-bottom: 0.3vw solid rgb(68, 128, 136);
-    
+
     cursor: pointer;
 }
 
@@ -69,7 +69,7 @@
     color: white;
     font-size: 1.4rem;
     margin: 0.6rem;
-    /* padding: 0.5rem 0.5rem; */
+   
     text-decoration: none;
 }
 
@@ -85,7 +85,7 @@
     backdrop-filter: blur(3px);
     box-shadow: 10px 10px 5px 12px rgb(32, 37, 39);
     background-color: transparent;
-    /* border: 2px solid red; */
+   
     z-index: 1;
 
 
@@ -98,7 +98,7 @@
 }
 
 .text {
-    /* border: 2px solid black; */
+   
 
     flex-wrap: wrap;
     align-self: center;
@@ -106,8 +106,7 @@
     color: antiquewhite;
     font-size: 2rem;
 
-    /* padding: 1rem;
-            margin: 1rem; */
+   
 
 
 }
@@ -160,7 +159,7 @@
     .container {
         height: 100%;
 
-        /* background-repeat: repeat; */
+       
     }
 
     .text {
@@ -188,7 +187,7 @@
 }
 
 .text2 {
-    /* border: 2px solid yellow; */
+    
     color: #b5e070;
 }
 
@@ -210,7 +209,7 @@
     width: 100%;
     justify-content: center;
     margin-top: 5%;
-    /* border: 2px solid red; */
+   
 }
 
 .about {
@@ -222,14 +221,14 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-   
-    background-image: url('/portfolio/img/t1.webp');
+
+    background-image: url('/t1.webp');
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
-    
+
     z-index: 5;
-   
+
 }
 
 .about_head {
@@ -267,7 +266,7 @@
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
-    background-image: url('/portfolio/img/projectImage.webp');
+    background-image: url('/projectImage.webp');
     background-size: cover;
     justify-content: center;
     box-shadow: 1rem 1rem 5rem 2rem lightblue;
@@ -277,13 +276,15 @@
 #project2 {
     color: white;
     height: 10%;
-    /* margin-top: %; */
+   
     font-size: 4.6rem;
     margin-top: 2rem;
 }
-.link a:hover{
+
+.link a:hover {
     color: rgb(93, 170, 189);
 }
+
 .projectImage2 {
     align-items: center;
     margin-left: 30%;
@@ -302,7 +303,7 @@
     color: antiquewhite;
 }
 
-.skill{
+.skill {
     display: flex;
     flex-wrap: wrap;
     height: auto;
@@ -310,27 +311,29 @@
     box-shadow: 1rem 1rem 5rem 2rem lightblue;
     flex-direction: column;
     align-items: center;
-    background-image: url('/portfolio/img/vt5saV.webp');
+    background-image: url('/vt5saV.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+
     width: auto;
     height: 100vh;
- 
+
 }
 
-.skill2{
+.skill2 {
     margin-top: 2rem;
-   color: white;
+    color: white;
     font-size: 4rem;
 }
-.skilllogo{
+
+.skilllogo {
     margin: 8%;
     box-shadow: 1rem 1rem 5rem 2rem lightblue;
     backdrop-filter: blur(10px);
 }
-.css{
+
+.css {
     display: flex;
     flex-wrap: wrap;
     display: inline-block;
@@ -340,17 +343,8 @@
     height: 15vh;
     width: 15vh;
 }
-.html{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
-   border-radius: 50%;
-   height: 15vh;
-    width: 15vh;
-}
-.c{
+
+.html {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -360,7 +354,19 @@
     height: 15vh;
     width: 15vh;
 }
-.c2{
+
+.c {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+}
+
+.c2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -370,7 +376,8 @@
     height: 15vh;
     width: 15vh;
 }
-.js{
+
+.js {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -381,66 +388,71 @@
     width: 18vh;
 }
 
-.html:hover{
+.html:hover {
     background-color: #b5acac;
-      transform: translateY(-5px);
-      box-shadow: 0px 1px 5px 2px whitesmoke ;
-}
-.css:hover{
-    background-color: #b5acac;
-      transform: translateY(-5px);
-      box-shadow: 0px 1px 5px 2px whitesmoke ;
-}
-.c:hover{
-    background-color: #b5acac;
-      transform: translateY(-5px);
-      box-shadow: 0px 1px 5px 2px whitesmoke ;
-}
-.c2:hover{
-    background-color: #b5acac;
-      transform: translateY(-5px);
-      box-shadow: 0px 1px 5px 2px whitesmoke ;
-}
-.js:hover{
-    background-color: #b5acac;
-      transform: translateY(-2px);
-      box-shadow: 0px 1px 5px 2px whitesmoke ;
+    transform: translateY(-5px);
+    box-shadow: 0px 1px 5px 2px whitesmoke;
 }
 
-.contact{
+.css:hover {
+    background-color: #b5acac;
+    transform: translateY(-5px);
+    box-shadow: 0px 1px 5px 2px whitesmoke;
+}
+
+.c:hover {
+    background-color: #b5acac;
+    transform: translateY(-5px);
+    box-shadow: 0px 1px 5px 2px whitesmoke;
+}
+
+.c2:hover {
+    background-color: #b5acac;
+    transform: translateY(-5px);
+    box-shadow: 0px 1px 5px 2px whitesmoke;
+}
+
+.js:hover {
+    background-color: #b5acac;
+    transform: translateY(-2px);
+    box-shadow: 0px 1px 5px 2px whitesmoke;
+}
+
+.contact {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    background-image: url('/portfolio/img/ontime_payroll.jpg');
+    background-image: url('/ontime_payroll.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: auto;
     box-shadow: 1rem 1rem 5rem 2rem lightblue
-    
- 
-
 }
-.contact2{
+
+.contact2 {
     margin-top: 0.5rem;
 }
-.label{
+
+.label {
     width: 60vw;
     margin: 0.5rem;
     height: 2rem;
     border-radius: 0.5rem;
 }
-.btn{
+
+.btn {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-width: 100%;
+    width: 100%;
 
 }
-button{
+
+button {
     display: flex;
     flex-wrap: wrap;
     margin: 1rem;
@@ -451,13 +463,15 @@ button{
     border-radius: 2rem;
     cursor: pointer;
     background-color: rgba(249, 249, 21, 0.864);
-    
+
 }
-.contactText{
-   
+
+.contactText {
+
     color: white;
-   font-size: 3rem;
+    font-size: 3rem;
 }
-button:hover{
+
+button:hover {
     background-color: #4d4141;
 }
