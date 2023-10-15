@@ -25,7 +25,7 @@
                     await sleep(sleepTime);
                     }
                     
-                    await sleep(sleepTime*10);
+                    await sleep(sleepTime*5);
 
                     if(curPhraseIndex == phrases.length -1){
                         curPhraseIndex = 0;
