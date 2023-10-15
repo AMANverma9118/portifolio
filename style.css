@@ -226,9 +226,24 @@
     }
 }
 
-.text2 {
+#text2 {
 
-    color: #b5e070;
+    color: rgb(20, 187, 145);
+}
+
+#cursor{
+    color: blue;
+    font-weight: bold;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0%;
+    }
 }
 
 .text3 {
