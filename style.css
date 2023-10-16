@@ -36,11 +36,21 @@
 
 
 }
+
+.name{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-self: center;
+    align-items: center;
+    cursor: pointer;
+}
 .name a{
     
     display: flex;
     justify-content: center;
     height: auto;
+    align-self: center;
     align-items: center;
     cursor: pointer;
 
