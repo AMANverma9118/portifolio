@@ -84,11 +84,11 @@
 
 
         <div class="skill2">SKILLS</div>
-        <div class="skilllogo"><img class="html" src="/img/icons8-html-144.png" width="80rem">
-            <img class="css" src="/img/icons8-css-144.png" width="80rem">
-            <img class="c" src="/img/icons8-c-144.png" width="80rem">
-            <img class="c2" src="/img/icons8-c-144 (1).png" width="80rem">
-            <img class="js" src="/img/icons8-javascript-144.png" width="80rem">
+        <a href="https://www.w3schools.com/html/" target="_blank"><div class="skilllogo"><img class="html" src="/img/icons8-html-144.png" width="80rem"></a>
+            <a href="https://www.w3schools.com/Css/" target="_blank"><img class="css" src="/img/icons8-css-144.png" width="80rem"></a>
+            <a href="https://www.w3schools.com/c/index.php" target="_blank"><img class="c" src="/img/icons8-c-144.png" width="80rem"></a>
+            <a href="https://www.w3schools.in/cplusplus" target="_blank"><img class="c2" src="/img/icons8-c-144 (1).png" width="80rem" target="_blank"></a>
+            <a href="https://www.w3schools.com/Js/" target="_blank"><img class="js" src="/img/icons8-javascript-144.png" width="80rem"></a>
         </div>
 
 
@@ -131,7 +131,7 @@
                 <input type="text" name="message" class="label" placeholder="Drop your message">
             </div>
             <div class="btn">
-                <button>
+                <button onclick="myFunction()">
                     Submit
                 </button>
             </div>
@@ -140,6 +140,11 @@
     </div>
 
     <script src="/myscripts.js"></script>
+    <script>
+        function myFunction(){
+            alert("Your contact in submitted successfully");
+        }
+    </script>
 </body>
 
 </html>
